@@ -19,8 +19,7 @@
 
 html {
   -moz-tab-size: 4;
-  -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
@@ -37,8 +36,7 @@ hr {
 }
 
 abbr[title] {
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 b,
@@ -101,8 +99,7 @@ select {
 [type=submit],
 button {
   -webkit-appearance: button;
-  -moz-appearance: button;
-       appearance: button;
+  appearance: button;
 }
 
 ::-moz-focus-inner {
@@ -133,8 +130,7 @@ progress {
 
 [type=search] {
   -webkit-appearance: textfield;
-  -moz-appearance: textfield;
-       appearance: textfield;
+  appearance: textfield;
   outline-offset: -2px;
 }
 

@@ -10,3 +10,22 @@
   --icon-bg-color: #ffecec;
   --primary-font: "Rubik", sans-serif;
 }
+
+//*зміннні scss
+// $back-color: #303030;
+
+//how to use:
+// p {
+// color: $back-color;
+
+//*   шаблон
+//  %align-list {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+
+//how to use:
+// p {
+//   @extend %align-list;
+// }

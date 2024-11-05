@@ -13,32 +13,34 @@
       referrerpolicy="no-referrer"
     />
     <link rel="icon" href="./src/public/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./src/sass/main.css" />
+    <link rel="stylesheet" href="./src/css/main.min.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <a href="./index.html">
-          <svg width="36" height="36">
+        <a href="./index.html" class="header-link">
+          <svg width="36" height="36" class="header-icon">
             <use href="./src/img/icons.svg#logo" />
           </svg>
-          <span>LaslesVPN</span></a
+          <span class="header-text">LaslesVPN</span></a
         >
 
         <!-- ? ЗРОБИТИ ЯКОРНІ ПОСИЛАННЯ І ЩОБ ВОНИ ПІДСВІЧУВАЛИСЬ КОЛИ ВИБРАНА ПЕВНА СЕКЦІЯ -->
 
-        <nav>
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Help</a></li>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
           </ul>
         </nav>
-        <ul>
-          <li><button>Sign In</button></li>
-          <li><button>Sign Up</button></li>
+        <ul class="auth">
+          <li class="auth-item"><button class="auth-btn">Sign In</button></li>
+          <li class="auth-item"><button class="auth-btn">Sign Up</button></li>
         </ul>
       </div>
     </header>

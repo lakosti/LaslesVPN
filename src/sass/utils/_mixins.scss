@@ -1,0 +1,28 @@
+@mixin font($fw, $fs, $lh, $ls) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+}
+
+//@include font(600,20px,1.5,0.01em)
+//@include font(null,20px,null,0.01em) // null -- якщо як дефолтні стилі браузера
+//@include font($ls:0.003em) // перевизначення значення якщо всі кроми нього співпадають
+
+@mixin transit(
+  $property,
+  $duration: 250ms,
+  // по замовчуванню
+  $cubic: cubic-bezier(0.4, 0, 0.2, 1)
+) {
+  transition-property: $property;
+  transition-duration: $duration;
+  transition-timing-function: $cubic;
+}
+
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+//@include center
