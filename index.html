@@ -12,17 +12,25 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="./src/public/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./src/css/main.min.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <a href="./index.html" class="header-link">
-          <svg width="36" height="36" class="header-icon">
+        <a href="./index.html" class="logo header-logo">
+          <svg width="36" height="36" class="logo-icon">
             <use href="./src/img/icons.svg#logo" />
           </svg>
-          <span class="header-text">LaslesVPN</span></a
+          <span class="logo-text"
+            >Lasles<span class="logo-bold-text">VPN</span></span
+          ></a
         >
 
         <!-- ? ЗРОБИТИ ЯКОРНІ ПОСИЛАННЯ І ЩОБ ВОНИ ПІДСВІЧУВАЛИСЬ КОЛИ ВИБРАНА ПЕВНА СЕКЦІЯ -->
@@ -40,7 +48,9 @@
         </nav>
         <ul class="auth">
           <li class="auth-item"><button class="auth-btn">Sign In</button></li>
-          <li class="auth-item"><button class="auth-btn">Sign Up</button></li>
+          <li class="auth-item">
+            <button class="auth-btn active">Sign Up</button>
+          </li>
         </ul>
       </div>
     </header>

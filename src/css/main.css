@@ -26,8 +26,8 @@ html {
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  line-height: 1.5;
+  font-family: "Rubik";
+  font-size: 16px;
 }
 
 hr {
@@ -173,11 +173,6 @@ a {
   transition: color 0.2s;
 }
 
-a:hover,
-a:focus {
-  text-decoration: underline;
-}
-
 button {
   cursor: pointer;
 }
@@ -194,4 +189,77 @@ img {
   padding-right: 15px;
   margin: 0 auto;
   outline: 1px solid red;
+}
+
+.header {
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo-icon {
+  margin-right: 10px;
+}
+.logo-text {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--second-text-color);
+  text-decoration: none;
+}
+.logo-bold-text {
+  font-weight: 700;
+}
+.header .logo {
+  margin-right: 158px;
+}
+
+.nav {
+  margin-right: 150px;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+.nav-link {
+  line-height: 1.2;
+  color: var(--main-text-color);
+}
+.nav-link:hover {
+  color: var(--accent-color);
+}
+
+.auth {
+  display: flex;
+  gap: 30px;
+}
+.auth-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth-btn {
+  font-weight: 500;
+  line-height: 1.2;
+  height: 45px;
+  border: none;
+  color: var(--second-text-color);
+}
+.auth .active {
+  padding: 13px 45px;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  border-radius: 50px;
+  transition: all 200ms ease-in;
+}
+.auth .active:hover {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
 }/*# sourceMappingURL=main.css.map */
