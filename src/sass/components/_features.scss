@@ -1,0 +1,42 @@
+.features {
+  .container {
+    display: flex;
+    gap: 170px;
+  }
+
+  &-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &-title {
+    width: 383px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.4;
+    color: var(--second-text-color);
+  }
+
+  &-label {
+    line-height: 1.8;
+    color: var(--main-text-color);
+  }
+
+  &-item {
+    display: flex;
+    align-items: center;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+  .checkbox-icon {
+    margin-right: 10px;
+  }
+  &-text {
+    font-size: 14px;
+    color: var(--main-text-color);
+    line-height: 2.1;
+  }
+}
