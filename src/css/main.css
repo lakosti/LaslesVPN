@@ -6,7 +6,6 @@
   --backgound-second-color: #f8f8f8;
   --accent-color: #f53838;
   --icon-bg-color: #ffecec;
-  --primary-font: "Rubik", sans-serif;
 }
 
 *,
@@ -303,6 +302,7 @@ img {
   box-shadow: 0px 40px 54px rgba(245, 56, 56, 0.25);
   transition: box-shadow 0.3s ease;
 }
+
 .stats {
   margin-bottom: 95px;
 }
@@ -352,6 +352,9 @@ img {
   color: var(--main-text-color);
 }
 
+.features {
+  margin-bottom: 126px;
+}
 .features .container {
   display: flex;
   gap: 170px;
@@ -387,4 +390,97 @@ img {
   font-size: 14px;
   color: var(--main-text-color);
   line-height: 2.1;
+}
+
+.plan {
+  background-color: var(--backgound-second-color);
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+.plan-title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.7;
+  text-align: center;
+  color: var(--second-text-color);
+}
+.plan-label {
+  margin-bottom: 60px;
+  line-height: 1.9;
+  text-align: center;
+  color: var(--main-text-color);
+}
+.plan-list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.plan-item {
+  position: relative;
+  height: 760px;
+  padding: 80px 69px 50px 69px;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  transition: border 250ms ease-in-out;
+}
+.plan-item:hover {
+  border: 2px solid var(--accent-color);
+  cursor: pointer;
+}
+.plan-img {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.plan .item-title {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--second-text-color);
+  text-align: center;
+}
+.plan-features-list {
+  margin-bottom: 30px;
+}
+.plan-features-item {
+  display: flex;
+  gap: 20px;
+}
+.plan-features-title {
+  font-size: 14px;
+  line-height: 2.1;
+  color: var(--main-text-color);
+}
+.plan .price {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.2;
+  color: var(--second-text-color);
+  text-align: center;
+}
+.plan-position {
+  position: absolute;
+  bottom: 50px;
+}
+.plan-btn {
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--accent-color);
+  padding: 13px 63px;
+  border: 2px solid var(--accent-color);
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+.plan-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+  box-shadow: 0px 40px 54px rgba(245, 56, 56, 0.25);
+}
+.plan .price-month {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.2;
+  color: var(--main-text-color);
 }/*# sourceMappingURL=main.css.map */
