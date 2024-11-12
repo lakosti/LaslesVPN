@@ -27,7 +27,7 @@
     position: relative;
     height: 760px;
     padding: 80px 69px 50px 69px;
-    border: 2px solid #dddddd;
+    border: 2px solid var(--border-color);
     border-radius: 10px;
     transition: border 250ms ease-in-out;
     &:hover {
