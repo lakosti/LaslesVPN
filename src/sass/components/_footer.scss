@@ -57,6 +57,7 @@
     color: var(--second-text-color);
   }
   &-text {
+    display: block;
     color: var(--main-text-color);
     line-height: 1.9;
     transition: all 250ms ease-in-out;
