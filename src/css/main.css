@@ -512,17 +512,48 @@ img {
 .review-list {
   display: flex;
   gap: 50px;
+  margin-bottom: 60px;
 }
 .review-item {
-  width: 400px;
+  flex-basis: 400px;
   padding: 30px;
   border: 2px solid var(--border-color);
+  transition: all 250ms ease-in-out;
+  border-radius: 10px;
 }
 .review-item:hover {
   border: 2px solid var(--accent-color);
+  box-shadow: 0px 22px 53px -18px rgba(0, 0, 0, 0.25);
 }
 .review-wrap {
   display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.review .avatar {
+  margin-right: 21px;
+}
+.review-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--second-text-color);
+}
+.review-place {
+  font-size: 14px;
+  line-height: 1.3;
+  color: var(--main-text-color);
+}
+.review .rating-wrapper {
+  margin-left: auto;
+}
+.review-rating {
+  color: var(--second-text-color);
+  line-height: 1.8;
+}
+.review-comment {
+  line-height: 1.8;
+  color: var(--second-text-color);
 }
 .review .slider-controllers {
   display: flex;
@@ -547,6 +578,13 @@ img {
   border: 2px solid var(--accent-color);
   border-radius: 50%;
   margin: 0 auto;
+  transition: transform 250ms ease-in-out;
+}
+.review .btn-controllers .btn-arrow:not(:last-child) {
+  margin-right: 20px;
+}
+.review .btn-controllers .btn-arrow:hover {
+  transform: translateY(-5px);
 }
 .review .btn-controllers .disabled {
   fill: var(--accent-color);
@@ -556,6 +594,7 @@ img {
   background-color: var(--accent-color);
   fill: var(--background-main-color);
 }
+
 .subscribe {
   position: absolute;
   left: 50%;
