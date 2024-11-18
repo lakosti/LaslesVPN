@@ -524,10 +524,6 @@ img {
 .review-wrap {
   display: flex;
 }
-.review-info {
-  display: flex;
-  flex-direction: column;
-}
 .review .slider-controllers {
   display: flex;
   justify-content: space-between;
