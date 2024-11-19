@@ -1,0 +1,44 @@
+.network {
+  background-color: var(--backgound-second-color);
+  padding-bottom: 34px;
+  .container {
+  }
+  &-title {
+    width: 448px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.4;
+    color: var(--second-text-color);
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+  &-label {
+    width: 555px;
+    text-align: center;
+    margin: 0 auto 155px;
+    line-height: 1.9;
+    color: var(--main-text-color);
+  }
+  &-label-bold {
+    font-weight: 500;
+  }
+  .map {
+    background-image: url(../img/map.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 538px;
+    width: 1060px;
+    margin: 0 auto 84px;
+  }
+
+  .company-list {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+  }
+  .company-item img {
+    width: 190px;
+    height: 64px;
+  }
+}

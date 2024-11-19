@@ -1,7 +1,9 @@
 .review {
   padding-top: 50px;
   padding-bottom: 182px;
+  background-color: var(--backgound-second-color);
   .container {
+    width: 1140px;
   }
   &-title {
     width: 447px;
@@ -111,4 +113,8 @@
       fill: var(--background-main-color);
     }
   }
+}
+
+.sub-position {
+  position: relative;
 }

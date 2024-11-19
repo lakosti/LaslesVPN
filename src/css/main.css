@@ -185,7 +185,7 @@ img {
 }
 
 .container {
-  width: 1204px;
+  width: 1140px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -200,7 +200,10 @@ img {
   border-radius: 10px;
   border: none;
   box-shadow: 0px 40px 54px rgba(245, 56, 56, 0.25);
-  transition: box-shadow 0.3s ease;
+  transition: all 250ms ease-in-out;
+}
+.btn:hover {
+  transform: translateY(-5px);
 }
 
 .header {
@@ -209,6 +212,7 @@ img {
   margin-bottom: 54px;
 }
 .header .container {
+  width: 1204px;
   display: flex;
   align-items: center;
 }
@@ -281,6 +285,7 @@ img {
   margin-bottom: 103px;
 }
 .hero .container {
+  width: 1204px;
   display: flex;
 }
 .hero-inner {
@@ -487,9 +492,55 @@ img {
   color: var(--main-text-color);
 }
 
+.network {
+  background-color: var(--backgound-second-color);
+  padding-bottom: 34px;
+}
+.network-title {
+  width: 448px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.4;
+  color: var(--second-text-color);
+  margin: 0 auto 20px;
+  text-align: center;
+}
+.network-label {
+  width: 555px;
+  text-align: center;
+  margin: 0 auto 155px;
+  line-height: 1.9;
+  color: var(--main-text-color);
+}
+.network-label-bold {
+  font-weight: 500;
+}
+.network .map {
+  background-image: url(../img/map.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 538px;
+  width: 1060px;
+  margin: 0 auto 84px;
+}
+.network .company-list {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+}
+.network .company-item img {
+  width: 190px;
+  height: 64px;
+}
+
 .review {
   padding-top: 50px;
   padding-bottom: 182px;
+  background-color: var(--backgound-second-color);
+}
+.review .container {
+  width: 1140px;
 }
 .review-title {
   width: 447px;
@@ -595,21 +646,29 @@ img {
   fill: var(--background-main-color);
 }
 
+.sub-position {
+  position: relative;
+}
+
+.sub-position {
+  position: relative;
+}
+
 .subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: absolute;
   left: 50%;
-  transform: translate(-50%);
+  transform: translateX(-50%);
   width: 100%;
   max-width: 1140px;
   height: 233px;
   padding: 58px 70px;
   background-color: var(--background-main-color);
   z-index: 10;
-}
-.subscribe .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  top: calc(100% - 116px);
+  box-shadow: 0px 22px 53px -18px rgba(0, 0, 0, 0.25);
 }
 .subscribe-title {
   width: 370px;
@@ -623,6 +682,7 @@ img {
   line-height: 1.9;
   color: var(--main-text-color);
 }
+
 .footer {
   background-color: #f8f8f8;
   padding-top: 180px;

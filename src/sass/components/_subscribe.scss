@@ -1,20 +1,21 @@
+.sub-position {
+  position: relative;
+}
 .subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: absolute;
   left: 50%;
-  //   bottom: 50%;
-  transform: translate(-50%);
+  transform: translateX(-50%);
   width: 100%;
   max-width: 1140px;
   height: 233px;
   padding: 58px 70px;
   background-color: var(--background-main-color);
   z-index: 10;
-  .container {
-    display: flex;
-    align-items: center;
-    // gap: 340px;
-    justify-content: space-between;
-  }
+  top: calc(100% - 116px);
+  box-shadow: 0px 22px 53px -18px rgba(0, 0, 0, 0.25);
   &-title {
     width: 370px;
     font-weight: 500;
@@ -26,7 +27,5 @@
   &-label {
     line-height: 1.9;
     color: var(--main-text-color);
-  }
-  &-btn {
   }
 }
