@@ -8,6 +8,12 @@
 <path fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color2, #f53838)" stroke="#f53838" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.4192" d="M23.387 10.371c0 4.174-3.384 7.558-7.558 7.558s-7.558-3.384-7.558-7.558c0-4.174 3.384-7.558 7.558-7.558s7.558 3.384 7.558 7.558z"></path>
 <path fill="#f53838" style="fill: var(--color2, #f53838)" d="M19.453 10.371c0 2.001-1.622 3.624-3.624 3.624s-3.624-1.622-3.624-3.624c0-2.001 1.622-3.624 3.624-3.624s3.624 1.622 3.624 3.624z"></path>
 </symbol>
+<symbol id="burger-menu" stroke="currentColor" viewBox="0 0 20 20">
+<path d="M0 3h20v2h-20v-2zM0 9h20v2h-20v-2zM0 15h20v2h-20v-2z"></path>
+</symbol>
+<symbol id="close-menu" viewBox="0 0 20 20">
+<path d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"></path>
+</symbol>
 <symbol id="amazon" viewBox="0 0 54 32">
 <path fill="#dde0e4" style="fill: var(--color1, #dde0e4)" d="M8.51 11.392h36.849v9.217h-36.849v-9.217z"></path>
 </symbol>
