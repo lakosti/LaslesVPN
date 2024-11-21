@@ -119,12 +119,14 @@
   }
 }
 .menu-open-btn {
+  color: var(--accent-color);
+  border: none;
   @media screen and (min-width: 768px) {
     display: none;
   }
 }
 .menu-open-icon {
-  stroke: var(--accent-color);
+  fill: currentColor;
 }
 .mob-menu {
   display: none;

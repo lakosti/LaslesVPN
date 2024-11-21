@@ -367,6 +367,10 @@ img {
   color: var(--white-text-color);
 }
 
+.menu-open-btn {
+  color: var(--accent-color);
+  border: none;
+}
 @media screen and (min-width: 768px) {
   .menu-open-btn {
     display: none;
@@ -374,7 +378,7 @@ img {
 }
 
 .menu-open-icon {
-  stroke: var(--accent-color);
+  fill: currentColor;
 }
 
 .mob-menu {
