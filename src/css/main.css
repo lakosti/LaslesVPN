@@ -489,7 +489,7 @@ img {
 @media screen and (min-width: 768px) {
   .hero-img {
     margin: 0 auto;
-    width: 100%;
+    width: 500px;
   }
 }
 
@@ -572,9 +572,17 @@ img {
 .features {
   margin-bottom: 126px;
 }
-.features .container {
-  display: flex;
-  gap: 170px;
+@media screen and (min-width: 768px) {
+  .features .container {
+    display: flex;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 1204px) {
+  .features .container {
+    display: flex;
+    gap: 170px;
+  }
 }
 .features-inner {
   display: flex;
@@ -582,12 +590,37 @@ img {
   justify-content: center;
   gap: 20px;
 }
+.features-img {
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .features-img {
+    margin-bottom: 0;
+    width: 350px;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 1204px) {
+  .features-img {
+    width: 508px;
+    height: 414px;
+  }
+}
 .features-title {
-  width: 383px;
   font-weight: 500;
   font-size: 35px;
   line-height: 1.4;
   color: var(--second-text-color);
+}
+@media screen and (min-width: 768px) {
+  .features-title {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1204px) {
+  .features-title {
+    width: 383px;
+  }
 }
 .features-label {
   line-height: 1.8;
@@ -628,13 +661,24 @@ img {
   text-align: center;
   color: var(--main-text-color);
 }
-.plan-list {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
+@media screen and (min-width: 768px) {
+  .plan-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1204px) {
+  .plan-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
 }
 .plan-item {
   position: relative;
+  width: 320px;
   height: 760px;
   padding: 80px 69px 50px 69px;
   border: 2px solid var(--border-color);
@@ -644,6 +688,11 @@ img {
 .plan-item:hover {
   border: 2px solid var(--accent-color);
   cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .plan-item {
+    width: 330px;
+  }
 }
 .plan-img {
   margin: 0 auto;
@@ -658,7 +707,7 @@ img {
   text-align: center;
 }
 .plan-features-list {
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
 }
 .plan-features-item {
   display: flex;
@@ -679,6 +728,8 @@ img {
 }
 .plan-position {
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 50px;
 }
 .plan-btn {
