@@ -71,7 +71,11 @@
             <button class="auth-btn active">Sign Up</button>
           </li>
         </ul>
-        <button type="button" class="menu-open-btn">
+        <button
+          type="button"
+          class="menu-open-btn"
+          aria-label="Open mobile menu"
+        >
           <svg class="menu-open-icon" width="30" height="30">
             <use href="./src/img/icons.svg#burger-menu"></use>
           </svg>
@@ -79,7 +83,11 @@
       </div>
       <div class="mob-menu">
         <div class="container">
-          <button type="button" class="menu-close-btn">
+          <button
+            type="button"
+            class="menu-close-btn"
+            aria-label="Close mobile menu"
+          >
             <svg class="menu-close-icon" width="20" height="20">
               <use href="./src/img/icons.svg#close-menu"></use>
             </svg>
@@ -103,10 +111,12 @@
           </ul>
           <ul class="mob-auth">
             <li class="mob-auth-item">
-              <button class="mob-auth-btn">Sign In</button>
+              <button class="mob-auth-btn" aria-label="Sign in">Sign In</button>
             </li>
             <li class="mob-auth-item">
-              <button class="mob-auth-btn active">Sign Up</button>
+              <button class="mob-auth-btn active" aria-label="Sign up">
+                Sign Up
+              </button>
             </li>
           </ul>
         </div>
@@ -126,13 +136,19 @@
               discover interesting features from us.
             </p>
 
-            <button class="btn hero-btn" type="button">Get Started</button>
+            <button
+              class="btn hero-btn"
+              type="button"
+              aria-label="Get started work"
+            >
+              Get Started
+            </button>
           </div>
           <div class="hero-img-wrap">
             <img
               class="hero-img"
               src="./src/img/Illustration-1.png"
-              alt="Image"
+              alt="Illustration-1"
               width="612"
               height="382"
             />
@@ -271,7 +287,9 @@
               </ul>
               <div class="plan-position">
                 <p class="price">Free</p>
-                <button class="plan-btn">Select</button>
+                <button class="plan-btn" aria-label="Select free plan">
+                  Select
+                </button>
               </div>
             </li>
             <li class="plan-item">
@@ -317,7 +335,9 @@
               </ul>
               <div class="plan-position">
                 <p class="price">$9 <span class="price-month">/ mo</span></p>
-                <button class="plan-btn">Select</button>
+                <button class="plan-btn" aria-label="Select 9$ plan">
+                  Select
+                </button>
               </div>
             </li>
             <li class="plan-item">
@@ -369,7 +389,9 @@
               </ul>
               <div class="plan-position">
                 <p class="price">$12 <span class="price-month">/ mo</span></p>
-                <button class="plan-btn">Select</button>
+                <button class="plan-btn" aria-label="Select 12$ plan">
+                  Select
+                </button>
               </div>
             </li>
           </ul>
@@ -388,7 +410,7 @@
               <img
                 src="./src/img/net.png"
                 width="190"
-                height="64"
+                height="66"
                 alt="Netflix"
               />
             </li>
@@ -396,7 +418,7 @@
               <img
                 src="./src/img/reddit.png"
                 width="190"
-                height="64"
+                height="66"
                 alt="Reddit"
               />
             </li>
@@ -404,7 +426,7 @@
               <img
                 src="./src/img/amazon.png"
                 width="190"
-                height="64"
+                height="66"
                 alt="Amazon"
               />
             </li>
@@ -412,7 +434,7 @@
               <img
                 src="./src/img/disc.png"
                 width="190"
-                height="64"
+                height="66"
                 alt="Discord"
               />
             </li>
@@ -420,7 +442,7 @@
               <img
                 src="./src/img/spot.png"
                 width="190"
-                height="64"
+                height="66"
                 alt="Spotify"
               />
             </li>
@@ -442,6 +464,8 @@
                     src="./src/img/avatar1.png"
                     alt="Viezh Robert"
                     class="avatar"
+                    height="50"
+                    width="50"
                   />
                   <div class="review-info">
                     <p class="review-name">Viezh Robert</p>
@@ -466,6 +490,8 @@
                     src="./src/img/avatar2.png"
                     alt="Viezh Robert"
                     class="avatar"
+                    height="50"
+                    width="50"
                   />
                   <div class="review-info">
                     <p class="review-name">Yessica Christy</p>
@@ -489,6 +515,8 @@
                     src="./src/img/avatar3.png"
                     alt="Viezh Robert"
                     class="avatar"
+                    height="50"
+                    width="50"
                   />
                   <div class="review-info">
                     <p class="review-name">Kim Young Jou</p>
@@ -516,12 +544,18 @@
                 <li class="dots-item"></li>
               </ul>
               <div class="btn-controllers">
-                <button class="btn-arrow disabled">
+                <button
+                  class="btn-arrow disabled"
+                  aria-label="Click to prev review"
+                >
                   <svg width="30" height="30" class="prev-icon">
                     <use href="./src/img/icons.svg#arrow-left" />
                   </svg>
                 </button>
-                <button class="btn-arrow active">
+                <button
+                  class="btn-arrow active"
+                  aria-label="Click to next review"
+                >
                   <svg width="30" height="30" class="next-icon">
                     <use href="./src/img/icons.svg#arrow-right" />
                   </svg>
